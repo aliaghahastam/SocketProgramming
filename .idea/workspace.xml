@@ -1,58 +1,66 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a89bdeb4-dfad-409f-9b05-4a94f368d628" name="Default Changelist" comment="" />
+    <list default="true" id="431ec796-7c6e-4b09-8e1b-f7215359cd51" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SocketProgramming/Server.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SocketProgramming/Server.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Server.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Server.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Class" />
-      </list>
-    </option>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectId" id="1V9mo1WQuAsEF1LWRXp9WJ3gXlO" />
+  <component name="ProjectId" id="1VEcWEza7C4wjdleU1k81PAxW7o" />
   <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/hi" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="reference.settings.deploy.options" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
   </component>
   <component name="RunManager" selected="Application.Client">
-    <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="Client" type="Application" factoryName="Application" singleton="false" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Client" />
       <module name="SocketProgramming" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DateServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DateServer" />
+    <configuration name="Server_new" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Server_new" />
       <module name="SocketProgramming" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Server" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Server" />
-      <module name="SocketProgramming" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+    <list>
+      <item itemvalue="Application.Client" />
+      <item itemvalue="Application.Server_new" />
+    </list>
     <recent_temporary>
       <list>
         <item itemvalue="Application.Client" />
-        <item itemvalue="Application.DateServer" />
-        <item itemvalue="Application.Server" />
+        <item itemvalue="Application.Server_new" />
       </list>
     </recent_temporary>
   </component>
@@ -73,15 +81,13 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="a89bdeb4-dfad-409f-9b05-4a94f368d628" name="Default Changelist" comment="" />
-      <created>1576673865099</created>
+      <changelist id="431ec796-7c6e-4b09-8e1b-f7215359cd51" name="Default Changelist" comment="" />
+      <created>1576818661263</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1576673865099</updated>
-      <workItem from="1576673892850" duration="1585000" />
-      <workItem from="1576678451828" duration="2728000" />
-      <workItem from="1576688869191" duration="16000" />
-      <workItem from="1576818060930" duration="272000" />
+      <updated>1576818661263</updated>
+      <workItem from="1576818663603" duration="2984000" />
+      <workItem from="1576821775783" duration="454000" />
     </task>
     <servers />
   </component>
@@ -89,25 +95,48 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1248" height="174" key="GridCell.Tab.0.bottom" timestamp="1576818366839">
+    <state x="238" y="40" key="#Custom_Plugin_Repositories" timestamp="1576821565415">
       <screen x="0" y="0" width="1294" height="768" />
     </state>
-    <state width="1248" height="174" key="GridCell.Tab.0.bottom/0.0.1294.768@0.0.1294.768" timestamp="1576818366839" />
-    <state width="1248" height="174" key="GridCell.Tab.0.center" timestamp="1576818366839">
+    <state x="238" y="40" key="#Custom_Plugin_Repositories/0.0.1294.768@0.0.1294.768" timestamp="1576821565415" />
+    <state x="100" y="37" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1576822249247">
       <screen x="0" y="0" width="1294" height="768" />
     </state>
-    <state width="1248" height="174" key="GridCell.Tab.0.center/0.0.1294.768@0.0.1294.768" timestamp="1576818366839" />
-    <state width="1248" height="174" key="GridCell.Tab.0.left" timestamp="1576818366839">
+    <state x="100" y="37" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1294.768@0.0.1294.768" timestamp="1576822249247" />
+    <state x="431" y="0" key="#com.intellij.ide.util.MemberChooser" timestamp="1576819144151">
       <screen x="0" y="0" width="1294" height="768" />
     </state>
-    <state width="1248" height="174" key="GridCell.Tab.0.left/0.0.1294.768@0.0.1294.768" timestamp="1576818366839" />
-    <state width="1248" height="174" key="GridCell.Tab.0.right" timestamp="1576818366839">
+    <state x="431" y="0" key="#com.intellij.ide.util.MemberChooser/0.0.1294.768@0.0.1294.768" timestamp="1576819144151" />
+    <state x="449" y="123" key="FileChooserDialogImpl" timestamp="1576822154301">
       <screen x="0" y="0" width="1294" height="768" />
     </state>
-    <state width="1248" height="174" key="GridCell.Tab.0.right/0.0.1294.768@0.0.1294.768" timestamp="1576818366839" />
-    <state x="678" y="210" key="com.intellij.ide.util.TipDialog" timestamp="1576688868685">
+    <state x="449" y="123" key="FileChooserDialogImpl/0.0.1294.768@0.0.1294.768" timestamp="1576822154301" />
+    <state width="1248" height="187" key="GridCell.Tab.0.bottom" timestamp="1576822296880">
       <screen x="0" y="0" width="1294" height="768" />
     </state>
-    <state x="678" y="210" key="com.intellij.ide.util.TipDialog/0.0.1294.768@0.0.1294.768" timestamp="1576688868685" />
+    <state width="1248" height="187" key="GridCell.Tab.0.bottom/0.0.1294.768@0.0.1294.768" timestamp="1576822296880" />
+    <state width="1248" height="187" key="GridCell.Tab.0.center" timestamp="1576822296879">
+      <screen x="0" y="0" width="1294" height="768" />
+    </state>
+    <state width="1248" height="187" key="GridCell.Tab.0.center/0.0.1294.768@0.0.1294.768" timestamp="1576822296879" />
+    <state width="1248" height="187" key="GridCell.Tab.0.left" timestamp="1576822296878">
+      <screen x="0" y="0" width="1294" height="768" />
+    </state>
+    <state width="1248" height="187" key="GridCell.Tab.0.left/0.0.1294.768@0.0.1294.768" timestamp="1576822296878" />
+    <state width="1248" height="187" key="GridCell.Tab.0.right" timestamp="1576822296879">
+      <screen x="0" y="0" width="1294" height="768" />
+    </state>
+    <state width="1248" height="187" key="GridCell.Tab.0.right/0.0.1294.768@0.0.1294.768" timestamp="1576822296879" />
+    <state x="147" y="15" key="SettingsEditor" timestamp="1576822215645">
+      <screen x="0" y="0" width="1294" height="768" />
+    </state>
+    <state x="147" y="15" key="SettingsEditor/0.0.1294.768@0.0.1294.768" timestamp="1576822215645" />
+    <state x="341" y="205" key="com.intellij.ide.util.TipDialog" timestamp="1576821807563">
+      <screen x="0" y="0" width="1294" height="768" />
+    </state>
+    <state x="341" y="205" key="com.intellij.ide.util.TipDialog/0.0.1294.768@0.0.1294.768" timestamp="1576821807563" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/SocketProgramming$Client.ic" NAME="Client Coverage Results" MODIFIED="1576821133203" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>
