@@ -1,4 +1,4 @@
-package firststep;
+package secondstep;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -9,18 +9,19 @@ import java.net.Socket;
 import java.util.ArrayList;
 
 public class Server {
-    private static String[] names = {"Ali", "Amir"};
-    private static String[] adjs = {"the gentle", "the overwought"};
+    private static String[] names = {"Ali", "Amir", "Hadi"};
+    private static String[] adjs = {" is short ", "is tall", "is a Monster"};
     private static final int PORT = 9090;
 
     public static void main(String[] args) throws IOException {
-        ServerSocket listener = new ServerSocket(PORT);
-        System.out.println("[SERVER] Waiting for client connection...");
-        Socket client = listener.accept();
-        System.out.println("[SERVER] connected to client!  ");
+        ServerSocket serverSocket = new ServerSocket(PORT);
+        System.out.println("[SERVER side] Waiting for client connection...");
+        Socket clientSocket = serverSocket.accept();
+        System.out.println("[SERVER side] connected to client!  ");
 
-        PrintWriter out = new PrintWriter(client.getOutputStream(), true);
-        BufferedReader in = new BufferedReader((new InputStreamReader(client.getInputStream())));
+        PrintWriter out = new PrintWriter(clientSocket.getOutputStream(), true);
+        BufferedReader in = new BufferedReader((new InputStreamReader(clientSocket.getInputStream())));
+
         try {
             while (true) {
                 String request = in.readLine();

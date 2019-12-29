@@ -16,7 +16,7 @@ public class Client {
 
         BufferedReader input=new BufferedReader(new InputStreamReader(serverSocket.getInputStream()));
         String serverResponse=input.readLine();
-        JOptionPane.showMessageDialog(null, serverResponse);
+        JOptionPane.showMessageDialog(null, "The date is:\n"+serverResponse);
 
         serverSocket.close();
         System.exit(0);
